@@ -1,24 +1,37 @@
+/*
+NAMA : MUHAMMAD JAMALUDIN NUR
+NIM  : A11.2022.14616
+DASAR PEMOGRAMAN 3
+*/
+
 #include <iostream>
+#include <stdio.h>
 
 using namespace std;
-
 int main()
-{   //NAMA LENGKAP
-    cout << "MUHAMMAD JAMALUDIN NUR" << endl;
-    //NAMA PANGILAN
-    cout << "JAMAL" << endl;
-    //NIM
-    cout << "A11202214616" << endl;
-    //ALAMAT
-    cout << "JALAN MAWAR 2 RT01/RWO5 WIKU 2 BLOK I DEMAK" << endl;
-    //HOBYY
-    cout << "MENDENGARKAN DAN BERMAIN MUSIK" << endl;
-    //ASAL SEKOLAH
-    cout << "DARI SMA N 1 DEMAK" << endl;
-    //AGAMA
-    cout << "ISLAM" << endl;
-    //KELAMIN
-    cout << "LAKI LAKI" << endl;
+{
+    cout << "Hello GUYS" << endl;
+
+  int u = 18;
+  float t = 171.5;
+  char ub = 'XL';
+  string ubs = "Extralarge";
+
+  cout << "Umur saya: " << u;
+  cout << endl;
+  cout << "Tinggi badan: " << t;
+  cout << endl;
+  cout << "Ukuran baju : " << ub;
+  cout << endl;
+  cout << "Detail ukuran: " << ubs;
+  cout << endl;
+
+  int a;
+  cout << "\nMasukan angka: ";
+  cin >> a;
+  cout << "\nPenjumlahan: " << a + u;
+  cout << "\nPengurangan: " << a - u;
+  cout << "\nPerkalian: " << a * u;
 
     return 0;
 }
