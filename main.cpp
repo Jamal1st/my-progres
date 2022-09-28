@@ -1,37 +1,28 @@
 /*
-NAMA : MUHAMMAD JAMALUDIN NUR
-NIM  : A11.2022.14616
-DASAR PEMOGRAMAN 3
+M.JAMALUDIN NUR
+A11.2022.14616
+DASPRO 8
 */
 
 #include <iostream>
 #include <stdio.h>
-
 using namespace std;
+
 int main()
 {
-    cout << "Hello GUYS" << endl;
+   float temperature = 101 ;
 
-  int u = 18;
-  float t = 171.5;
-  char ub = 'XL';
-  string ubs = "Extralarge";
+   if(temperature > 100) {
+        cout << "gas,karena temperartur lebih dari 100°C " << endl;
+   } else if(temperature <= 1) {
+        cout << "ice,karena suhu dibawah 1°C" << endl;
+   } else {
+        cout << "liquid,karena suhu di antara 1-100°C" << endl;
+   }
 
-  cout << "Umur saya: " << u;
-  cout << endl;
-  cout << "Tinggi badan: " << t;
-  cout << endl;
-  cout << "Ukuran baju : " << ub;
-  cout << endl;
-  cout << "Detail ukuran: " << ubs;
-  cout << endl;
 
-  int a;
-  cout << "\nMasukan angka: ";
-  cin >> a;
-  cout << "\nPenjumlahan: " << a + u;
-  cout << "\nPengurangan: " << a - u;
-  cout << "\nPerkalian: " << a * u;
+
+
 
     return 0;
 }
