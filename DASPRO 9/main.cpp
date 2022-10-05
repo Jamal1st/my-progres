@@ -1,3 +1,8 @@
+/* 
+MUHAMMAD JAMALUDIN NUR
+A11.2022.14616
+DASPROOO
+*/
 #include <iostream>
 
 using namespace std;
