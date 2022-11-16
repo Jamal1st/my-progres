@@ -1,0 +1,34 @@
+*/*Untuk semua area termasuk Header,Nav, Body, And FOoter */
+{
+    background-color:DodgerBlue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: rgb(247, 247, 254);
+    text-decoration-line: underline;/*Dekorasi Garis Bawah*/
+    text-decoration-style: wavy; /*Gelombang*/
+    text-decoration-color: red;/*Warna garis bawah*/
+    text-align: center;
+}
+.Text{
+    font-size: 40px;
+    color:red ;
+}
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+  }
